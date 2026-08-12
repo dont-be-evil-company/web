@@ -56,7 +56,7 @@
       >
         <img src="/assets/badges/discord.svg" alt="discord badge" />
       </a>
-      <a href="https://github.com/dontbeevilcompany" title="Check out our Github profile">
+      <a href="https://github.com/dont-be-evil-company" title="Check out our Github profile">
         <img src="/assets/badges/github-profile.svg" alt="github badge" />
       </a>
       <a
