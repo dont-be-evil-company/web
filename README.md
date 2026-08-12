@@ -1,6 +1,6 @@
 <div align="center">
 
-![the don't be evil company logo](static/logo.png)
+<img src="https://raw.githubusercontent.com/dont-be-evil-company/web/main/static/logo.png" alt="Logo" width="200" height="200" />
 
 # Web
 
