@@ -1,6 +1,12 @@
 name: Build and deploy website
 run-name: Build and deploy website triggered by @${{ github.actor }}
 
+# Necessary permissions for the workflow deploy to pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
