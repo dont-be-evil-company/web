@@ -1,0 +1,50 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json && eslint .",
+    "test": "vitest",
+    "lint": "pnpm run check",
+    "fmt": "prettier --write .",
+    "format": "pnpm run fmt",
+    "prepare": "husky",
+    "update:deps": "ncu -iu"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@fontsource/indie-flower": "5.3.0",
+    "@sveltejs/adapter-auto": "7.0.1",
+    "@sveltejs/adapter-static": "3.0.10",
+    "@sveltejs/kit": "2.70.2",
+    "@sveltejs/vite-plugin-svelte": "7.3.0",
+    "@types/eslint": "9.6.1",
+    "eslint": "10.8.1",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-prettier": "5.5.6",
+    "eslint-plugin-svelte": "3.22.0",
+    "globals": "17.9.0",
+    "husky": "9.1.7",
+    "install": "0.13.0",
+    "mdsvex": "0.12.8",
+    "npm": "^12.0.2",
+    "npm-check-updates": "23.0.2",
+    "prettier": "3.9.6",
+    "prettier-plugin-svelte": "4.1.1",
+    "svelte": "5.56.8",
+    "svelte-check": "4.7.5",
+    "svelte-sitemap": "4.0.4",
+    "typescript": "6.0.2",
+    "vite": "^8.2.1",
+    "vitest": "4.1.10"
+  },
+  "type": "module",
+  "trustedDependencies": [
+    "@sveltejs/kit",
+    "esbuild",
+    "svelte-preprocess"
+  ]
+}

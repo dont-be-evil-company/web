@@ -1,0 +1,13 @@
+{
+	"name": "The Don't Be Evil Company",
+	"short_name": "dbe",
+	"icons": [
+		{ "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+		{ "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+	],
+	"theme_color": "#ffffff",
+	"background_color": "#333333",
+	"display": "browser",
+	"scope": "/",
+	"start_url": "/"
+}
